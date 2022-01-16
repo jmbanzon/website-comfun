@@ -2648,6 +2648,22 @@ input
 {
 	text-align: right;
 }
+.transact-table1-sf2
+{
+	text-align: right;
+	font-size: 1rem;
+	font-style: italic;
+	color: black;
+	text-shadow: 0 0 11px red;
+}
+.transact-table1-sf3
+{
+	text-align: right;
+	font-size: 0.85rem;
+	font-style: italic;
+	color: black;
+	text-shadow: 0 0 11px red;
+}
 .transact-table2
 {
 	font-size: 2.5rem;
@@ -2780,9 +2796,9 @@ input
 }
 .transaction-voucher
 {
-	margin-top: 5.5rem;
-	margin-left: 7.5rem;
-	
+	position: absolute;
+	bottom: 1.5rem;
+	left: 7.5rem;
 }
 .voucher-input[type=text]
 {
